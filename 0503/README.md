@@ -1,9 +1,9 @@
 # 0503 문제
 
-**벨만-포드**
+**다익스트라**
 
 ```
-13317 한 번 남았다
+2211 네트워크 복구
 ```
 
- https://www.acmicpc.net/problem/13317
+ https://www.acmicpc.net/problem/2211

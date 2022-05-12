@@ -1,5 +1,5 @@
 def bf():
-    result = [25000001] * (N + 1)
+    result = [0] * (N + 1)
 
     for j in range(N):
         for now,next,cost in road:

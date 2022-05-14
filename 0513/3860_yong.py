@@ -3,6 +3,7 @@ input = sys.stdin.readline
 d = [(1, 0), (-1, 0), (0, 1), (0, -1)]
 # 벨만토드의 기본을 잘 구현하면 풀 수 있는문제
 # 난이도는 알고문제가 아니라 조건 때문에 플레인것 같음
+# 조건에 맞게 구현하는게 제일 중요!
 def find():
     field[0][0] = 0
     for _ in range(W*H):
@@ -13,9 +14,6 @@ def find():
                         for di, dj, t in time[i][j]:
                             if field[di][dj] > field[i][j] + t:
                                 field[di][dj] = field[i][j] + t
-                        # if di == H-1 and dj == W-1 and not flag:
-                        #     ans
-                        #     return
                         continue
                     if field[i][j] != 'X' and (i != H-1 or j != W-1):
                         for di, dj in d:

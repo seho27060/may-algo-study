@@ -52,9 +52,9 @@ while True:
         edges[(r1, c1)].append((t, r2, c2))
 
 
-    # 그래프로 풀려고 봤더니 힘들 것 같아
+    # 이차원 배열 풀려고 봤더니 힘들 것 같아
     # 벨만포드는 역시 노드로 봐야한다고 생각하고
-    # 그래프 -> 노드로 변환
+    # 배열 -> 노드로 변환
     for row in range(R):
         for col in range(C):
             # 볼 때마다 바로 이해하려고 그냥 continue를 분리해서 작성

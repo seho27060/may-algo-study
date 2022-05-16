@@ -21,9 +21,8 @@ def bf():
                     for i in range(4):
                         X = nowx + dx[i]
                         Y = nowy + dy[i]
-                        if (X,Y) in Glist:
-                            continue
-                        elif 0<=X<W and 0<=Y<H:
+                        
+                        if 0<=X<W and 0<=Y<H and road[Y][X] != 2:
                             if result[Y][X] > cnt+1:
                                 result[Y][X] = cnt+1
                                 if j == W*H-1:

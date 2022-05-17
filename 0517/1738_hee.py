@@ -1,4 +1,4 @@
-from collections import defaultdict
+from collections import defaultdict 
 import sys
 input = sys.stdin.readline
 INF = sys.maxsize

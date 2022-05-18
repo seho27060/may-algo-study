@@ -19,7 +19,6 @@ while True:
     if m == 0 and n == 0:
         break
     parent = [i for i in range(m)]
-    visited = [0]*m
     edges = []
     for _ in range(n):
         x, y, z = map(int, input().split())

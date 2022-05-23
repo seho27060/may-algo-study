@@ -26,8 +26,6 @@ for _ in range(M):
     A, B, C = map(int, input().split())
     G[A].append((C, B))
     G[B].append((C, A))
-# 안 돼서 도전한 이분 탐색 풀이...
-
 
 S, E = map(int, input().split())
 low, high = 1, INF
@@ -38,6 +36,7 @@ while low <= high:
     else:
         high = mid - 1
 print(high)
+# 안 돼서 도전한 이분 탐색 풀이...
 
 from collections import defaultdict
 from heapq import *

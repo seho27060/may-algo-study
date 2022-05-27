@@ -67,7 +67,7 @@
 
 - 0516 [백준 11657. 타임머신](https://www.acmicpc.net/problem/11657) (벨만 포드)
 
-- 0517 [백준 1738. 골목길](https://www.acmicpc.net/problem/1738) (골목길)
+- 0517 [백준 1738. 골목길](https://www.acmicpc.net/problem/1738) (벨만 포드)
 
 - 0518 [백준 6497. 전력난](https://www.acmicpc.net/problem/6497) (트리)
 
